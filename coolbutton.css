@@ -1,0 +1,63 @@
+body {
+    display: flex; 
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    background: #151b29;
+    flex-direction: column;
+}
+
+button {
+    background: none;
+    color: #ffa260;
+    border: 2px inset #ffa260;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.2s;
+    border-radius: 1em;
+    margin: 0 0.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    border-color: yellow;
+    color: yellow;
+    box-shadow: 0 0.5em 0.5em -0.4em yellow;
+    transform: translateY(-0.25em);  
+    cursor: pointer;
+}
+button:active {
+    border-color: green;
+    color: green;
+    box-shadow: 0 0.5em 0.5em -0.4em green;
+    transform: translateY(-0.25em);  
+    cursor: pointer;
+}
+.brand {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.brand p {
+    font-size: large;
+    margin-bottom: 1em;
+}
+.brand h1{
+    margin-bottom: 0;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 405px) {
+    .button {
+        flex-direction: column;
+        align-items: center;
+    }
+    button {
+        margin-bottom: 0.5em;
+    }
+}

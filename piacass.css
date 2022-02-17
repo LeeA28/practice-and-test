@@ -1,0 +1,78 @@
+body {
+    background-color: #B495AD;
+}
+
+button {
+    font-size: 30px;
+    background: #4a6194;
+    
+}
+
+h1, h2 {
+    color: #C8FFBE;
+}
+
+span {
+    color: #C8FFBE;
+}
+
+.tag {
+    color:#474459;
+    background-color: #a1cda8;
+    font-size: 16px;
+}
+
+.post a {
+    color: #4361ee; 
+    text-decoration: none;
+}
+
+footer a {
+    color: palegoldenrod
+}
+
+h2 + button {
+    background-color: #cfbaf0;
+    font-size: 10px;
+}
+
+footer > a {
+    color:rgb(92, 9, 55);
+}
+input[type="password"] {
+    color: rgb(8, 94, 43)
+}
+
+a:hover {
+    color:#A7D1D1;
+}
+
+button:hover {
+    background-color: mediumaquamarine;
+}
+
+.post button:hover {
+    background-color: mediumpurple;
+}
+.post button:active {
+    background-color: #A7D1D1;
+}
+
+
+.post:nth-of-type(2n+1) {
+    background-color: #FFC9DC;
+}
+
+ section span::selection, section h2::selection, 
+ section a::selection, section button::selection {
+    background-color: indigo;
+    color:lawngreen;
+} 
+
+
+section:nth-of-type(2n) span::selection, section:nth-of-type(2n) h2::selection, 
+section:nth-of-type(2n) a::selection, section:nth-of-type(2n) button::selection {
+    background-color: rgb(128, 6, 26);
+    color: green;
+}
+

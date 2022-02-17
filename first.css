@@ -1,0 +1,38 @@
+h2 {    
+    color: rgb(178, 45, 715); 
+}
+h1 {  
+    color: #3a5cf1; 
+}
+p {    
+    color: green;
+}
+button {
+    color: blue;
+    background-color: pink;
+}
+
+h1 {    
+    text-transform: uppercase;
+    text-decoration: plum wavy underline;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 20px;
+    font-family: monospace;
+    text-align: center;
+
+}
+h2 {
+    text-align: right;
+    font-weight: 700;
+    text-decoration: #004569 overline wavy;
+}
+p {
+        line-height: 2;
+    letter-spacing: 10px;
+    font-size: large;
+    font-family: arial, futura;
+}
+a {
+    text-decoration: none;
+}

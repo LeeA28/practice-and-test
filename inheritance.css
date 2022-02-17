@@ -1,0 +1,20 @@
+body {
+    color: purple;
+}
+
+section {
+    color: aqua;
+}
+
+form {
+    color: greenyellow;
+}
+
+button, input {
+    color: inherit;
+}
+
+p::selection {
+    background-color: black;
+    color:darkgoldenrod;
+}
